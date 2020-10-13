@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    width: 100vh;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+  
+    width: 800px;
+    max-width: 80%;
+   
+}
+
+.btn-grid{
+    display: grid;
+    gap: 10px; 
+    margin: 20px 0;
+}
+
+.btn:hover 
+
+.controls {
+    display: flex;
+    justify-content:center; 
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
+
