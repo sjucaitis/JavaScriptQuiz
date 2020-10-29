@@ -1,23 +1,4 @@
-body {
-    display: flex;
-    width: 100vh;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-}
 
-.container {
-  
-    width: 800px;
-    max-width: 80%;
-   
-}
-
-.btn-grid{
-    display: grid;
-    gap: 10px; 
-    margin: 20px 0;
-}
 
 .btn:hover 
 
@@ -31,3 +12,35 @@ body {
     display: none;
 }
 
+#highscores{
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#highscoreInitials{
+    display: inline-block;
+    
+}
+
+#highscoreScore{
+    float: right;
+}
+
+#highscoreHead{
+    display:flex;
+    justify-content: space-around;
+    border-bottom-style: outset;
+}
+
+#start-btn{
+background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+}
